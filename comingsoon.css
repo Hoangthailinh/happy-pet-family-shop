@@ -1,0 +1,82 @@
+* {
+    background-color: black;
+  }
+  .text {
+    font-size: 120px;
+    animation: colorChange 8s infinite alternate;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  @keyframes colorChange {
+    0% {
+      color: #f00;
+    }
+    25% {
+      color: #0f0;
+    }
+    50% {
+      color: #00f;
+    }
+    75% {
+      color: #ff0;
+    }
+    100% {
+      color: #0ff;
+    }
+  }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    transform: rotateZ(10deg);
+  }
+  
+  .snowflake.small {
+    width: 2px;
+    height: 2px;
+  }
+  
+  .snowflake.large {
+    width: 15px;
+    height: 15px;
+  }
+
+  .typing-text {
+    font-size: 24px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .typing-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: typing 1s steps(0.1) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  
