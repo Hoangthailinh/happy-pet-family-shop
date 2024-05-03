@@ -675,4 +675,56 @@
       display:none
   }
   }
+
+  .container_3 {
+    position: relative;
+    top: 0;
+  }
   
+  .header-container3 {
+    width: 100%;
+    height: 500px;
+    background-color: #DCDCDC;
+    display: inline-block;
+  }
+  
+  .header3 {
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-left: 12%;
+    top: 20px;
+    font-size: 12px;
+  }
+  
+  .htl4 {
+    position: absolute;
+    top: 60px;
+    margin-left: 150px;
+    padding: 10px;
+    width: 350px;
+  }
+  
+  .header4 {
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    margin-left: 50%;
+    top: -80px;
+    font-size: 12px;
+  }
+  
+  .htl5 {
+    position: absolute;
+    top: 60px;
+    margin-left: 750px;
+    padding: 10px;
+    width: 350px;
+  }
+  
+  .htl6 {
+    position: relative;
+    top: -70px;
+  }
